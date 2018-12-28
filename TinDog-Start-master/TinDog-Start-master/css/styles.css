@@ -1,0 +1,152 @@
+body{
+   font-family: "Montserrat"; 
+}
+#title{
+    background-color: crimson;
+    color: white;
+   
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    padding:30px;
+    
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+}
+p{
+    color:darkgray;
+}
+
+
+.container-fluid1{
+    padding:3% 15%;
+	
+}
+.navbar-brand{
+    font-size: 2.5rem;
+	
+}
+.btn{
+    margin: 15px;
+}
+.title-img{
+    width:60%;
+    transform:rotate(15deg);
+    position: absolute;
+    z-index:0;
+}
+
+
+@media (max-width:1028px){
+    #title
+    {
+        text-align: center;
+    }
+    
+    .title-img
+    {
+        width:60%;
+        transform:rotate(0);
+        position: static;
+    }
+   
+                         }
+
+
+
+.row{
+    padding-top:30px;
+}
+
+
+#features{
+    background-color: yellow;
+    padding:7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.icon{
+    color:darkorange;
+}
+.icon:hover{
+    color:coral;
+}
+
+
+#testimonials{
+    
+    background-color: aquamarine;
+    text-align: center;
+    color: slateblue;
+}
+.t-img{
+    border-radius: 50%;
+    width:20%;
+}
+
+
+
+
+
+#press{
+    background-color: aquamarine;
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-img{
+    width:20%;
+    margin:20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.card-body{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+#cta{
+    background-color: deeppink;
+    color:white;
+    text-align: center;
+    padding: 7% 15%;
+}
+#cta h3{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+
+
+
